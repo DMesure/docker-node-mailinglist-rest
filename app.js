@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const sender = require('./send.js');
 
 app.get('/', (req, res) => res.send('Hello from Node.JS, this is going to be the REST API for our mailinglist!'));
 
